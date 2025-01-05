@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en&ko-KR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>투두리스트</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <h1>
-        HelloWorld!
-    </h1>
+    <div class="container">
+        <h1>투두리스트</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="할 일을 입력하세요" required>
+            <button type="submit">추가</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

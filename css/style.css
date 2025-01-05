@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GowunDodum-Regular';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.container button {
+    padding: 10px;
+    border: none;
+    background-color: #999;
+    color: #f9f9f9;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+        background: #000;
+        transition: background-color 0.3s ease;
+    }
+}
+
+.contianer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
